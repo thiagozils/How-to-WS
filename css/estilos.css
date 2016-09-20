@@ -129,7 +129,7 @@ top: -25%;
  
 /** formata elementos que tem backgrounds parallax **/
 .bgParallax {
-    font-family:'Fjalla One', sans-serif;
+    font-family: Fjalla One, sans-serif;
 	color:#FFF;
 	margin: 0 auto;
 	width: 100%;
