@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css?family=Anton';
+
+body{ 
+background-color : #F4F4F4; 
+}
+
+#tituloOQUE { 
+margin-left: 10%;
+margin-top : 3%;
+position:absolute;
+font-family: 'Anton', sans-serif;
+font-size: 33px;
+color: #2fbcc5;
+}
+
+.page { 
+background-color : #fff; 
+width: 80%;
+height: 110%;
+margin: 5% auto; 
+padding: 30px;
+}
+
+.page p { 
+font-family : tahoma;
+font-size: 20px;
+color:#262626;
+margin-left: 1%;
+}
+
+.page a { 
+text-decoration:none;
+color: #4169E1;
+transition: all 0.5s linear;
+}
+.page a:hover{
+	color:#349ad5;
+	transition: all 0.5s linear;
+}
+
+.page table{
+	padding-top:4%;
+	padding-left:2%;
+}
+.page font { 
+font-family: 'Anton', sans-serif;
+font-size: 33px;
+color: #2fbcc5;
+}
+.page img { 
+width:150px;
+height:150px;
+transition: all 0.5s linear;
+}
+.page img:hover{
+-webkit-transform: scale(1.01);
+-ms-transform: scale(1.01);
+ transform: scale(1.01);
+transition: all 0.5s linear;
+}
+
+.titulo { 
+margin-left: 10%;
+margin-top : 3%;
+position:absolute;
+font-family: 'Anton', sans-serif;
+font-size: 33px;
+color: #00688B;
+}
+
+.formulario {
+	position: relative;
+	margin-bottom:10%;
+
+}
+
+#botaoEnviar {
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+#text {
+	width:450px;
+	height:20px;
+	border-style:solid;
+	border-color:#F5F5F5;	
+	border-radius: 5px;
+	
+}
+
+.mapa {
+	position: absolute;
+	top: 24%;
+	left: 54%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

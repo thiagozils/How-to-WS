@@ -1,0 +1,268 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import 'https://fonts.googleapis.com/css?family=Anton';
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Questrial';
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+
+
+
+.logo { 
+position:relative;
+}
+.logo:hover{ 
+ -webkit-animation: swing 1s ease;
+ animation: swing 1s ease;
+ -webkit-animation-iteration-count: 1;
+ animation-iteration-count: 1;
+}
+
+
+ 
+ .menu { 
+ width : 100%;
+ height : 10%;
+ background-color: #00688B;
+ align: left;
+ position:relative;
+ }
+ 
+
+
+.linkMenu{
+position: relative;
+margin-left : 1%;
+text-decoration:none;
+color: #fff;	
+font-family: 'Anton', sans-serif;
+font-size: 25px;
+transition: all 0.5s linear;
+top: -25%;
+}
+.linkMenu:hover { 
+  color:#ccc;
+  padding: 1px 0; 
+  transition: all 0.5s linear;
+}
+
+ 
+ 
+ 
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    font: bold 3em/1.5 'Fjalla One', sans-serif;
+	color:#FFF;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 75%;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+ 
+/* Define backgrounds dos divs */
+#quemsomos {background-image: url(../img/fundoTelaHD.jpg);}
+
+ 
+/** Formata o texto da imagem **/
+.bgParallax h1 {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:8% 0% 0%;
+  transition: all 0.25s linear;
+}
+
+.bgParallax p { 
+text-align : center;
+font-size:30px;
+}
+
+.bgParallax a { 
+text-decoration:none;
+color: #fff;
+}
+ 
+.bgParallax h1 {font-size:100px;}
+.bgParallax h1:hover{
+color: #20B2AA ;
+-webkit-transition: .2s;
+}
+
+footer { 
+background-color  :#00688B;
+width : 100%;
+height: 27%;
+position:relative;
+bottom:0;
+}
+
+.tdTitulo{
+font-family: 'Pacifico', cursive;
+color: #fff;
+font-size : 20px;
+}
+#copyright {  
+font-family: 'Pacifico', cursive;
+color: #fff;
+-webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ -moz-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ -o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#copyright:hover{
+-webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ -moz-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ -o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+text-shadow: -3px 0 0 rgb(128,128,128);
+}
+
+
+.tdConteudo { 
+font-family: arial;
+color: #fff;
+font-size: 14px;
+}
+
+.circuloIndex{
+	border-radius: 50%;
+	background-color:#6495ED;
+	position:relative;
+	width: 150px;
+	height: 150px;
+	text-align:center;
+	vertical-align: middle;
+	display: table-cell;
+	position: relative;
+	-webkit-transition: all 700ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.circuloIndex:hover{
+	background-color:#00688B;
+	border-radius:45%;
+	-webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+footer a { 
+color: #fff;
+text-decoration:none;
+}
+
+footer table { 
+margin-left: 1%;
+margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
