@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
 @import 'https://fonts.googleapis.com/css?family=Anton';
 @import 'https://fonts.googleapis.com/css?family=Pacifico|Questrial';
 @-webkit-keyframes swing
@@ -129,7 +129,7 @@ top: -25%;
  
 /** formata elementos que tem backgrounds parallax **/
 .bgParallax {
-    	font-family: 'Fjalla One', sans-serif;
+    	font: bold 3em/1.5 'Fjalla One', sans-serif;
 	color:#FFF;
 	margin: 0 auto;
 	width: 100%;
