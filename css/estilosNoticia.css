@@ -75,11 +75,22 @@ color: #00688B;
 }
 
 #botaoEnviar {
-	width: 450px;
-	height: 40px;
-	border-radius: 5px;
-	background-color: #fff;
+    font-size: 1.5em;
+	width:42%;
+    background: #1399A5;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+	transform: scale(1.01);
+	transition: all 0.5s linear;
 }
+#botaoEnviar:hover{
+    background: #16B6C5;
+    text-shadow: none;	
+	 transform: scale(1.01);
+	transition: all 0.5s linear;
+	}
 
 #text {
 	width:450px;
