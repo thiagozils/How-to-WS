@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<charset
+<charset>
 <html>
 <head>
-<title> HTWS- Contato</title>
+<title> Contato</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="css/estilosNoticia.css">
 <link rel="stylesheet" href="css/estilos.css">
+<script> function myFunction() {
+    alert("Mensagem enviada com sucesso!");
+} </script>
 </head>
-
-
-
 <body>
 
 <div class="menu">
@@ -29,11 +29,11 @@ CONTATO
 </div>
 <div class="page" style="height:65%">
 
-	<form class="formulario">	
+	<form class="formulario" >	
 		<input type="text" name="nome" id="text" placeholder=" Nome"><br><br>
 		<input type="text" name="email" id="text" placeholder=" E-mail"><br><br>
 		<input type="text" name="texto" id="text" placeholder=" Mensagem" style="height:50px"><br> <br>
-		<input type="submit" id="botaoEnviar" value="Enviar mensagem!">
+		<input type="submit" id="botaoEnviar" value="Enviar mensagem!" onclick="myFunction()" >
 	</form>
 
 	<div class="mapa">
